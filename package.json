@@ -14,10 +14,12 @@
   "author": "\"OibeJones Favour\"",
   "license": "ISC",
   "dependencies": {
+    "20": "^3.1.9",
     "bcrypt": "^5.1.1",
     "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "helmet": "^8.0.0",
     "joi": "^17.13.3",

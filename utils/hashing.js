@@ -1,5 +1,5 @@
 const { hash } = require("bcrypt");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 
 exports.doHash = async (password, saltRounds) => {
   try {
