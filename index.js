@@ -27,6 +27,13 @@ app.get("/", (req, res) => {
   res.json({ message: "Node running" });
 });
 
-app.listen(process.env.PORT, () => {
-  console.log("Server is actively listening for connections...");
-});
+const port = process.env.PORT || 4000;
+
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
+
+app.listen(port, () => {
+  console.log(`Server is actively listening for connections on port ${port}`)
+})
+
